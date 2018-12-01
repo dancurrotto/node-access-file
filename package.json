@@ -1,22 +1,15 @@
 {
-  "name": "node-jenkins-ec2",
+  "name": "node-access-file",
   "version": "1.0.0",
-  "description": "Simple node app for Jenkins DevOps to Aws Ec2",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcurrotto/node-jenkins-ec2.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dcurrotto/node-jenkins-ec2/issues"
-  },
-  "homepage": "https://github.com/dcurrotto/node-jenkins-ec2#readme",
   "dependencies": {
     "date-and-time": "^0.6.3",
     "express": "^4.16.3"
